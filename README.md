@@ -5,9 +5,8 @@ The ROM file prosduced is a 16kb size.
 
 ## i6809asm
 
-This program is the 6809 assembler running on macOS used to assemble the source code of CocoBasic and EKMonitor. It is derivated from the AS9 of the Grant's page. 
-
-I put a copy of this i6809asm executable in each folder CocoBasic and EKMonitor. The i6809 assembler source code is available in my Github. Currently it is adapted to Xcode 16.2.
+This program is the 6809 assembler running on macOS used to assemble the source code of this maonitor and CocoBasic. It is derivated from the AS9 of the Grant's page. 
+The i6809 assembler source code is available in my Github. Currently it is adapted to Xcode 16.2.
 
 i6809asm is my own assmebler running on macOS.
 
@@ -25,7 +24,7 @@ My own monitor, adapted here to this SBC 6809.
 Make SBC6809GMon.bin :
 
 - Open a BASH terminal 
-- Enter to the folder CocoBasic
+- Enter to the folder SBC6809GMon
 - Type: $ ./i6809asm SBC6809GMon.asm -bin
 - This will produce a SBC6809GMon.bin file
 
@@ -64,4 +63,4 @@ http://searle.x10host.com/6809/Simple6809.html
 
 This project is free and can be reused as you want without any restrictions.
 
-2002/2025 FAVARD Laurent 6809 projects.
+2025 FAVARD Laurent 6809 projects.
